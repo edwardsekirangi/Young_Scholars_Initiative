@@ -1,0 +1,28 @@
+{
+  "name": "young_scholars_initiative",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardsekirangi/Young_Scholars_Initiative.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardsekirangi/Young_Scholars_Initiative/issues"
+  },
+  "homepage": "https://github.com/edwardsekirangi/Young_Scholars_Initiative#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
