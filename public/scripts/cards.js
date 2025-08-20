@@ -2,7 +2,7 @@
 //to populate an array and display it on the website
 
 //We are getting references to the items we need to work with that are in our HTML
-const url = "https://github.com/edwardsekirangi/Young_Scholars_Initiative/blob/main/public/data/program.json";
+const url = "https://edwardsekirangi.github.io/wdd231/individual-website/data/program.json";
 const membersContainer = document.getElementById("programCards");
 
 
