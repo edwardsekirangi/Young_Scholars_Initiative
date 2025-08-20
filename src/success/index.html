@@ -28,7 +28,8 @@
   <!-- JavaScript (using defer) -->
     <script src="../scripts/navigation.js" defer></script>
     <script src="../scripts/date.js" defer></script>
-    <script src="../scripts/cards.js" defer></script>
+  <!-- External pzaz -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -38,8 +39,8 @@
         <nav class="navbar">
             <ul class="nav-links">
                 <li><a href="/index.html">Home</a></li>
-                <li class="current-menu-item"><a href="../programs/programs.html">Programs</a></li>
-                <li><a href="../success/success.html">Success Stories</a></li>
+                <li><a href="../programs/index.html">Programs</a></li>
+                <li class="current-menu-item"><a href="../success/index.html">Success Stories</a></li>
             </ul>
             <div class="hamburger" id="hamburger"></div>
         </nav>
@@ -48,12 +49,36 @@
   <main>
 
 
-    <section class="programs-section">
-        <h2 id="companies-heading">Explore Our Initiatives</h2>
-        <div>
-            <div class="cards" id="programCards"></div>
+    <div class="hero">
+        
+        <img src="../individual-website/images/hero-success.jpg" alt="business" data-aos="fade-up" data-aos-duration="1500">
+        <h2>You can change a life today</h2>
+        <div class="button-group">
+            <a href="#contact" class="hero-button">Donate</a>
+            <a href="#contact" class="hero-button">Subscribe</a>
         </div>
         
+    </div>
+
+    <section class="success-stories">
+        <h2>Success Stories</h2>
+        <div class="stories-grid">
+            <div class="story-card">
+            <img src="../individual-website/images/success1.jpg" alt="Student Kigaati Allan" loading="lazy">
+            <h3>Jane Doe</h3>
+            <p>"Thanks to the mentorship program, I gained confidence and got a full scholarship to college!"</p>
+        </div>
+        <div class="story-card">
+            <img src="../individual-website/images/success2.jpg" alt="Student Malik Johnson" loading="lazy">
+            <h3>Malik Johnson</h3>
+            <p>"The coding bootcamp sparked my interest in tech — now I’m building my first app!"</p>
+        </div>
+        <div class="story-card">
+            <img src="../individual-website/images/success3.jpg" alt="Student Amina Ali" loading="lazy">
+            <h3>Amina Ali</h3>
+            <p>"The scholarship workshops helped me land funding for all my Elementary and Primary education."</p>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -69,5 +94,10 @@
     </div>
       
 </footer>
+<!-- External pzaz -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
