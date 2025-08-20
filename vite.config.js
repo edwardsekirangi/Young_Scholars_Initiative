@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, '/index.html'),
+        main: path.resolve(__dirname, 'index.html'),
         programs: path.resolve(__dirname, 'src/programs/index.html'),
         success: path.resolve(__dirname, 'src/success/index.html'),
         // Add more pages as needed
