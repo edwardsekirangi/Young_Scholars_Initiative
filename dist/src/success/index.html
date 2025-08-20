@@ -25,9 +25,10 @@
     <!-- Social media icons links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- JavaScript (using defer) -->
-    <script src="src/scripts/navigation.js" defer></script>
-    <script src="src/scripts/date.js" defer></script>
-    <script src="src/scripts/program.js" defer></script>
+    <script src="../scripts/navigation.js" defer></script>
+    <script src="../scripts/date.js" defer></script>
+  <!-- External pzaz -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" crossorigin href="/assets/style-Diyf1hPf.css">
 </head>
 <body>
@@ -37,48 +38,48 @@
         </div>
         <nav class="navbar">
             <ul class="nav-links">
-                <li class="current-menu-item"><a href="index.html">Home</a></li>
-                <li><a href="src/programs/index.html">Programs</a></li>
-                <li><a href="src/success/index.html">Success Stories</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="../programs/index.html">Programs</a></li>
+                <li class="current-menu-item"><a href="../success/index.html">Success Stories</a></li>
             </ul>
             <div class="hamburger" id="hamburger"></div>
         </nav>
     </header>
 
   <main>
+
+
     <div class="hero">
-        <img src="/assets/hero-BMDGnYDb.jpg" alt="business" loading="lazy">
-        <h2>Empowering Students through Education</h2>
+        
+        <img src="../individual-website/images/hero-success.jpg" alt="business" data-aos="fade-up" data-aos-duration="1500">
+        <h2>You can change a life today</h2>
         <div class="button-group">
             <a href="#contact" class="hero-button">Donate</a>
             <a href="#contact" class="hero-button">Subscribe</a>
         </div>
+        
     </div>
 
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p>Young Scholars Initiative is a non-profit dedicated to creating educational opportunities for underserved youth through mentorship, resources, and community support.</p>
-      </section>
-    
-      <section id="programs" class="section">
-        <h2>Our Programs</h2>
-        <div class="programs-container"></div>
-      </section>
-    
-      <section id="events" class="section">
-        <h2>Upcoming Events</h2>
-        <div class="events-container"></div>
-      </section>
-    
-      <section id="contact" class="section">
-        <h2>Subscribe to our newsletter</h2>
-        <form>
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <button type="submit">Send</button>
-        </form>
-      </section>
-    
+    <section class="success-stories">
+        <h2>Success Stories</h2>
+        <div class="stories-grid">
+            <div class="story-card">
+            <img src="../individual-website/images/success1.jpg" alt="Student Kigaati Allan" loading="lazy">
+            <h3>Jane Doe</h3>
+            <p>"Thanks to the mentorship program, I gained confidence and got a full scholarship to college!"</p>
+        </div>
+        <div class="story-card">
+            <img src="../individual-website/images/success2.jpg" alt="Student Malik Johnson" loading="lazy">
+            <h3>Malik Johnson</h3>
+            <p>"The coding bootcamp sparked my interest in tech — now I’m building my first app!"</p>
+        </div>
+        <div class="story-card">
+            <img src="../individual-website/images/success3.jpg" alt="Student Amina Ali" loading="lazy">
+            <h3>Amina Ali</h3>
+            <p>"The scholarship workshops helped me land funding for all my Elementary and Primary education."</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -93,5 +94,10 @@
     </div>
       
 </footer>
+<!-- External pzaz -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
